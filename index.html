@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="css/music.css">
+
+    <title>Inicio</title>   
+</head>
+
+
+
+
+
+<body>
+
+<section>
+    <div class="container">
+        <img src="..//img//1.png" alt="">
+        <h1>Login</h1>
+            <form action="">
+
+                <div class="control">
+                    <label for="User:">Usuario:</label>
+                    <input type="text">
+                </div>
+                
+                <div class="control">
+                    <label for="pass">Contraseña:</label>
+                    <input type="password" name="" id="">
+                </div>
+
+                    <span><input type="checkbox" name="" id=""> Recordar</span>
+
+                <div class="control">
+                    <input type="submit" value="Login">
+                </div>
+            </form>     
+    </div>
+                <div class="music">
+                    <img class="disc" src="..//img//2.jpg" alt="">
+                    <audio id="player" src="sound/y2mate.com - Öwnboss Sevek  Move Your Body.mp3" autoplay></audio>
+                   
+
+                    <div class="control-music">
+                        <button onclick="document.getElementById('player').play()">⏵</button>
+                        <button onclick="document.getElementById('player').pause()">⏸</button>
+                        <button onclick="document.getElementById('player').volume-=0.1">-</button>
+                        <button onclick="document.getElementById('player').volume+=0.1">+</button>
+                    </div>
+               
+                </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
